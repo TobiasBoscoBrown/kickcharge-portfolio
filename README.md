@@ -23,5 +23,6 @@ A tailored portfolio website built for the SEO Lead position at KickCharge Creat
 ## Contact
 
 Toby Brown  
-tobybrown.pro@gmail.com  
-801-879-8122
+tobiasboscob@gmail.com  
+208-999-6890  
+https://www.linkedin.com/in/tobias-brown-352503311/?skipRedirect=true
