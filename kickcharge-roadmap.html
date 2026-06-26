@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KickCharge Case Study SEO Roadmap | Toby Brown</title>
+  <meta name="description" content="Detailed SEO roadmap based on KickCharge Creative's actual case studies. Written by Toby Brown for the SEO Lead role." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .case-study-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .case-study-card {
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: var(--radius);
+      padding: 28px;
+      transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+    }
+    .case-study-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(254,186,18,0.4);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.1);
+    }
+    .case-study-card h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-dark);
+      margin-bottom: 6px;
+    }
+    .case-meta {
+      font-size: 12px;
+      color: var(--text-dark-dim);
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .case-results {
+      background: #fffbf0;
+      border-left: 4px solid var(--gold);
+      padding: 14px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 16px;
+    }
+    .case-results p {
+      font-size: 13px;
+      color: #333;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .case-actions {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .case-actions li {
+      font-size: 13px;
+      color: var(--text-dark);
+      padding-left: 18px;
+      position: relative;
+      line-height: 1.55;
+    }
+    .case-actions li::before {
+      content: "\2192";
+      position: absolute;
+      left: 0;
+      color: var(--gold-dark);
+      font-weight: 700;
+    }
+    .roadmap-section {
+      background: var(--off-white);
+      padding: 100px 0;
+    }
+    .roadmap-section.section-dark {
+      background: var(--charcoal);
+    }
+    .roadmap-section.section-dark h2,
+    .roadmap-section.section-dark h3,
+    .roadmap-section.section-dark p {
+      color: var(--text);
+    }
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .insight-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      padding: 24px;
+      text-align: center;
+    }
+    .insight-num {
+      font-family: var(--font-display);
+      font-size: 42px;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .insight-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .insight-card p {
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+    @media (max-width: 980px) {
+      .case-study-grid, .insight-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">Toby Brown</span>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#portfolio">Work</a></li>
+        <li><a href="index.html#roadmap">Roadmap</a></li>
+        <li><a href="index.html#docs">Resume</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Get Me an Interview</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero" style="min-height: 70vh;">
+    <div class="hero-bg-text">ROADMAP</div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="dot"></span>
+        Based on Every KickCharge Case Study I Could Research
+      </div>
+      <h1>
+        I Studied Your Wins.<br />
+        <span class="accent">Here's How I'd Build</span><br />
+        The Next Round.
+      </h1>
+      <p class="hero-sub">
+        This roadmap is built from KickCharge's actual case studies: MyGuy, Blackburn, ASAP, Maston's, Breckinridge, Rare Breed, Planet Roof, A1 Garage, Right Way, Vector, Top Flight, Leveled Concrete, 365, Doom Buggy, and Vern's Plumbing. It shows exactly how I would lead SEO to repeat and compound those results.
+      </p>
+      <div class="hero-actions">
+        <a href="#case-studies" class="btn-primary">See Case Study Roadmap</a>
+        <a href="index.html" class="btn-outline">Back to Main Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="roadmap-section section-dark">
+    <div class="container">
+      <div class="section-label">What the Data Shows</div>
+      <h2>Patterns Across KickCharge's Best Results</h2>
+      <p class="section-sub">The same levers show up again and again in KickCharge's biggest wins. These are the levers I would own as SEO Lead.</p>
+
+      <div class="insight-grid">
+        <div class="insight-card">
+          <div class="insight-num">01</div>
+          <h3>GBP Is the Top Lead Driver</h3>
+          <p>MyGuy's GBP now drives 67% of total call volume. Blackburn saw 49% more calls from GBP. I would make GBP optimization a non-negotiable for every account.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-num">02</div>
+          <h3>SEO Reduces Cost Per Lead</h3>
+          <p>MyGuy cut cost per lead from $73.57 to $8.56. ASAP moved budget from PPC to SEO for stronger long-term ROI. I would optimize for organic efficiency.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-num">03</div>
+          <h3>Branded Search Grows Revenue</h3>
+          <p>Right Way customers now search by name. Leveled Concrete tripled branded organic searches. I would build brand + search together.</p>
+        </div>
+        <div class="insight-card">
+          <div class="insight-num">04</div>
+          <h3>Multi-Location Needs Scale</h3>
+          <p>Blackburn manages GBPs for every location and uses CallRail, Birdeye, Nearby Now, and ZyraChat. I would standardize this tech stack.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="case-studies" class="roadmap-section">
+    <div class="container">
+      <div class="section-label">Case Study Deep Dives</div>
+      <h2>What I Would Do for Each KickCharge Client Archetype</h2>
+      <p class="section-sub">Every card references a real KickCharge case study result, then translates it into an SEO action plan I would execute as SEO Lead.</p>
+
+      <div class="case-study-grid">
+
+        <div class="case-study-card">
+          <h3>MyGuy Plumbing &amp; Drain</h3>
+          <div class="case-meta">Plumbing &middot; Toms River / Wall Township, NJ</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Monthly revenue grew from $38,808 to $334,026 over 5 years. Cost per lead dropped from $73.57 to $8.56. GBP now drives 67% of call volume.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Double down on GBP</strong> for every location with weekly posts, photo uploads, Q&amp;A, and service menus.</li>
+            <li><strong>Build hyperlocal SEO</strong> with neighborhood-specific pages and Nearby Now check-ins.</li>
+            <li><strong>Integrate ServiceTitan + CallRail</strong> attribution so every organic call is tracked to source and keyword.</li>
+            <li><strong>Maintain a long-term content calendar</strong> for seasonal plumbing issues to capture year-round search.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Blackburn Plumbing, Heating &amp; Air</h3>
+          <div class="case-meta">HVAC/Plumbing &middot; Southeast OK + North TX</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> 49% increase in total calls from GBP. Hit #1 Map Pack rankings. Expanded into North Texas after rebrand.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Launch location-specific GBPs and landing pages</strong> for every new market before trucks roll.</li>
+            <li><strong>Implement Birdeye review generation</strong> to capture reviews immediately after every completed job.</li>
+            <li><strong>Use CallRail + GA4</strong> to attribute calls by location and source.</li>
+            <li><strong>Build city pages</strong> for each service area with unique project photos and local copy.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>ASAP Plumbing, HVAC &amp; Septic</h3>
+          <div class="case-meta">Multi-Trade &middot; SEO-First Pivot</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> 152% more leads, 25+ top-3 rankings, 44x ROI after shifting from PPC-heavy to SEO-led strategy.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Reduce PPC dependency</strong> by ranking for high-intent service keywords organically.</li>
+            <li><strong>Build a keyword universe</strong> for plumbing, HVAC, and septic with separate funnels.</li>
+            <li><strong>Implement FAQ schema and service pages</strong> to capture "near me" and question-based queries.</li>
+            <li><strong>Run review generation + live chat</strong> to convert organic traffic at higher rates.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Maston's Plumbing &amp; Drain</h3>
+          <div class="case-meta">Plumbing &middot; Tulsa, OK</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Revenue doubled in just over a year. Call volume increased 303%. First-page ranking for "Drain Cleaning in Tulsa."</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Optimize for exact service + city keywords</strong> like "drain cleaning [city]" and "emergency plumber [city]."</li>
+            <li><strong>Build a conversion-focused website</strong> with clear calls, click-to-call, and simple forms.</li>
+            <li><strong>Run GBP + PPC together</strong> at $72 per conversion vs. the $100 industry standard.</li>
+            <li><strong>Deploy LocalBusiness schema</strong> and consistent NAP across all directories.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Breckinridge Heating &amp; Cooling</h3>
+          <div class="case-meta">HVAC &middot; Full-Funnel Digital</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Hit #1 in search. Boosted first-time callers by 30%. Achieved 20x ROI on marketing.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Build a full-funnel SEO strategy</strong> spanning awareness, consideration, and emergency intent.</li>
+            <li><strong>Target first-time caller keywords</strong> with trust-building content about costs, warranties, and financing.</li>
+            <li><strong>Optimize conversion paths</strong> so organic traffic books appointments at higher rates.</li>
+            <li><strong>Track marketing ROI end-to-end</strong> with GA4, CRM, and call tracking.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Rare Breed Plumbing</h3>
+          <div class="case-meta">Plumbing &middot; Bountiful, UT</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> $1.1M revenue increase in year one (56% growth), then $2.1M more in year two (86% growth). Now expanding into HVAC and electrical.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Build SEO for new service lines</strong> as Rare Breed expands into HVAC and electrical.</li>
+            <li><strong>Create brand-driven content</strong> that reinforces "The Herd You Can Trust" promise.</li>
+            <li><strong>Launch service-area pages</strong> for expansion markets with local landing pages.</li>
+            <li><strong>Turn brand recognition into branded search</strong> with consistent messaging across website and GBP.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Planet Roof Siding &amp; Gutters</h3>
+          <div class="case-meta">Roofing &middot; Pittsburgh, PA</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> $3.32M in sales within 6 months. $19.03M over the next 12 months. Brand became more approachable and homeowner-friendly.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Build storm-damage and insurance content</strong> to capture high-ticket replacement leads.</li>
+            <li><strong>Launch before/after project pages</strong> with local photos and schema markup.</li>
+            <li><strong>Optimize for "roofing company [city]"</strong> and material-specific searches.</li>
+            <li><strong>Run seasonal content campaigns</strong> around hail, wind, and winter roof prep.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>A1 Garage Door Service</h3>
+          <div class="case-meta">Garage Doors &middot; National Multi-State</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> $200M revenue increase in 3 years after rebrand. Spanning 14 states. Built one of the most recognized brands in the industry.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Build a national SEO framework</strong> with location pages for every market.</li>
+            <li><strong>Standardize GBP management</strong> across dozens of locations with consistent categories and posts.</li>
+            <li><strong>Optimize for branded search</strong> so customers search "A1 Garage Door" instead of generic terms.</li>
+            <li><strong>Create scalable content systems</strong> for opener, spring, and installation queries.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Right Way Garage Doors</h3>
+          <div class="case-meta">Garage Doors &middot; Vacaville, CA</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Revenue up $4.5M in one year. Service business grew by $2M. Average ticket nearly tripled to $964. No increase in marketing spend.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Own branded search</strong> by making the website the destination for "Right Way Garage Doors" queries.</li>
+            <li><strong>Build service + product pages</strong> for opener, spring, and installation services.</li>
+            <li><strong>Optimize for average ticket growth</strong> with content about premium products and same-day repair.</li>
+            <li><strong>Reduce reliance on paid ads</strong> by capturing customers who search by name.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Vector Heating, Cooling, Plumbing &amp; Electrical</h3>
+          <div class="case-meta">Multi-Trade &middot; Brooklyn Park, MN</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> $2.6M revenue increase. 30.47% reduction in cost per conversion. 235% increase in conversion rate. 225% increase in conversions.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Build unified service pages</strong> for HVAC, plumbing, and electrical under one brand.</li>
+            <li><strong>Improve conversion rate</strong> through trust signals, clear CTAs, and fast page speed.</li>
+            <li><strong>Optimize local pack presence</strong> for all four service categories.</li>
+            <li><strong>Track cost per conversion</strong> across channels and shift budget toward organic.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Top Flight Heating &amp; Air</h3>
+          <div class="case-meta">HVAC &middot; Milton, DE</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Doubled revenue to $1.8M. Average ticket grew from $200-$300 to $1,200-$1,700. 900% increase in membership agreements.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Build membership / maintenance plan SEO</strong> to capture recurring-revenue customers.</li>
+            <li><strong>Optimize for high-ticket service pages</strong> like system replacement and installation.</li>
+            <li><strong>Create seasonal content</strong> for tune-ups, emergency repair, and system upgrades.</li>
+            <li><strong>Improve perceived authority</strong> with professional design and trust content.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Leveled Concrete</h3>
+          <div class="case-meta">Concrete &middot; Houston, TX</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Organic branded searches tripled in 3 months. Customers remembered the brand color and mascot before all trucks were wrapped.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Track branded search volume</strong> as a core KPI for brand awareness.</li>
+            <li><strong>Build service pages for concrete leveling, repair, and foundation work.</strong></li>
+            <li><strong>Optimize GBP with brand imagery</strong> and consistent visual identity.</li>
+            <li><strong>Create local project pages</strong> to capture neighborhood-level searches.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>365 Heating, Cooling &amp; Plumbing</h3>
+          <div class="case-meta">Multi-Trade &middot; Kitchener, Ontario</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> Went from $77K to more than $1.9M in just 6 months after rebrand. Results described as "pretty instantaneous."</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Launch fast with foundational SEO</strong> from day one of the rebrand.</li>
+            <li><strong>Build all three service funnels</strong> - heating, cooling, and plumbing - simultaneously.</li>
+            <li><strong>Implement strong technical SEO</strong> on the new website: schema, speed, mobile, internal links.</li>
+            <li><strong>Track lead-to-revenue</strong> to show instant ROI from organic search.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Doom Buggy Pest Control</h3>
+          <div class="case-meta">Pest Control &middot; Las Vegas, NV</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> 1,200 website visitors and 73 conversions within 2 months of launch. 259 calls through CallRail. $96 per lead on LSAs.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Launch new brands with SEO + GBP + LSA + PPC</strong> from day one.</li>
+            <li><strong>Build launch content</strong> around brand name and bug-busting personality.</li>
+            <li><strong>Implement conversion tracking</strong> with CallRail and form analytics.</li>
+            <li><strong>Target local pest control keywords</strong> aggressively in the first 90 days.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-card">
+          <h3>Vern's Plumbing</h3>
+          <div class="case-meta">Plumbing &middot; Bealeton, VA</div>
+          <div class="case-results">
+            <p><strong>Proven result:</strong> 53% revenue increase. 250% more booked customers. 22.9x ROAS through data-driven digital strategy.</p>
+          </div>
+          <ul class="case-actions">
+            <li><strong>Connect marketing spend to booked jobs</strong> with transparent attribution.</li>
+            <li><strong>Run full-funnel SEO + PPC + LSA</strong> to hit a target of 12 jobs per day.</li>
+            <li><strong>Publish ongoing blog content</strong> for high-intent keywords and Nearby Now updates.</li>
+            <li><strong>Optimize GBP and website backend</strong> together for local visibility.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="roadmap-section section-dark">
+    <div class="container">
+      <div class="section-label">Department-Wide Playbook</div>
+      <h2>What I Would Implement Across All Accounts</h2>
+      <p class="section-sub">These are the standards and systems I would put in place as SEO Lead to make every KickCharge account a repeatable success story.</p>
+
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <h3>Audit Every Account</h3>
+          <p>Technical SEO, GBP, citations, content, and competitors. Every account gets a baseline scorecard within 30 days.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <h3>Standardize the Tech Stack</h3>
+          <p>CallRail, Birdeye, Nearby Now, GA4, GSC, SEMrush, Ahrefs, and Looker Studio dashboards for every account.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <h3>GBP as a Core Channel</h3>
+          <p>Weekly posts, photo uploads, review responses, Q&amp;A, and service menus managed as a standard deliverable.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">04</div>
+          <h3>Review Velocity Engine</h3>
+          <p>Automated review generation tied to job completion. Review response protocols to turn feedback into fresh content.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">05</div>
+          <h3>Location Page Factory</h3>
+          <p>Scalable city and service-area pages with unique copy, schema, and local project photos for every market.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">06</div>
+          <h3>Cross-Team Alignment</h3>
+          <p>SEO briefs shared with Paid Ads, Web, and Operations before launch so every channel amplifies the others.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">07</div>
+          <h3>Content Calendar by Vertical</h3>
+          <p>Pre-built seasonal content plans for HVAC, plumbing, roofing, electric, garage, and pest control.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">08</div>
+          <h3>Monthly KPI Reporting</h3>
+          <p>Organic traffic, local pack rankings, calls, booked jobs, cost per lead, and revenue. Visible to client and internal teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Get Me an Interview.<br />I'll Build This Roadmap for Real.</h2>
+      <p>I am ready to lead your SEO team, scale what is already working, and make every KickCharge account a case study worth publishing.</p>
+      <a href="mailto:tobybrown.pro@gmail.com?subject=KickCharge%20SEO%20Lead%20Interview%20Request" class="btn-primary">Request an Interview</a>
+      <div class="contact-links">
+        <a href="mailto:tobybrown.pro@gmail.com">tobybrown.pro@gmail.com</a>
+        <a href="tel:801-879-8122">801-879-8122</a>
+        <a href="https://www.linkedin.com/in/tobybrownseo/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Toby Brown &middot; SEO Lead Application &middot; KickCharge Creative &middot; 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) navbar.classList.add('scrolled');
+      else navbar.classList.remove('scrolled');
+    });
+  </script>
+</body>
+</html>

@@ -12,6 +12,7 @@ A tailored portfolio website built for the SEO Lead position at KickCharge Creat
 - `style.css` - KickCharge brand styling (gold #feba12 + charcoal #292828)
 - `resume.html` - Tailored resume for the SEO Lead role
 - `cover-letter.html` - Tailored cover letter for the SEO Lead role
+- `kickcharge-roadmap.html` - Deep-dive SEO roadmap based on 15 KickCharge case studies
 
 ## Brand Notes
 
